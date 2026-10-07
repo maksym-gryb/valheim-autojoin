@@ -1,0 +1,40 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <NoWarn>$(NoWarn);MSB3277</NoWarn>
+
+    <AssemblyName>ValheimAutoJoin</AssemblyName>
+    <RootNamespace>ValheimAutoJoin</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="BepInEx">
+      <HintPath>$(ValheimDir)/BepInEx/core/BepInEx.dll</HintPath>
+    </Reference>
+
+    <Reference Include="0Harmony">
+      <HintPath>$(ValheimDir)/BepInEx/core/0Harmony.dll</HintPath>
+    </Reference>
+
+    <Reference Include="assembly_valheim">
+      <HintPath>$(ValheimDir)/valheim_Data/Managed/assembly_valheim.dll</HintPath>
+    </Reference>
+
+    <Reference Include="assembly_utils">
+      <HintPath>$(ValheimDir)/valheim_Data/Managed/assembly_utils.dll</HintPath>
+    </Reference>
+
+    <Reference Include="UnityEngine">
+      <HintPath>$(ValheimDir)/valheim_Data/Managed/UnityEngine.dll</HintPath>
+    </Reference>
+
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>$(ValheimDir)/valheim_Data/Managed/UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
