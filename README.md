@@ -133,3 +133,7 @@ Launching the game binary directly is useful for testing but may not provide Ste
 ## Security
 
 The server password is stored as plain text in the local BepInEx config. The automated installer asks for it without echoing it to the terminal and creates the file with owner-only permissions, but the password remains readable by your user and by software running as that user. Do not commit the config or place the password in Steam launch options.
+
+## License and disclaimer
+
+This project is licensed under the MIT License; see [LICENSE](LICENSE). It was coded with AI assistance and originally intended for the author's personal use. It has only been tested on one device, so compatibility and behavior on other systems are not guaranteed. Anyone is welcome to use, modify, and distribute it under the license, at their own risk. To the fullest extent permitted by law, the authors and contributors disclaim liability for damages, data loss, account issues, service interruptions, or other consequences resulting from use of this software. See the LICENSE file for the full warranty and liability disclaimer.
